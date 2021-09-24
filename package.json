@@ -4,7 +4,7 @@
   "description": "This is a refactor of https://github.com/Tres-Leches/FEC with React hooks.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage --watch",
     "build": "webpack --mode=development --watch",
     "prod": "webpack --mode=production",
     "start": "nodemon server/index.js"
