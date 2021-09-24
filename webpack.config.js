@@ -12,7 +12,7 @@ module.exports = {
 
   resolve: {
     enforceExtension: false,
-    extensions: ['.js', '.jsx', '.json'],
+    extensions: ['*', '.js', '.jsx', '.json'],
   },
 
   module: {
